@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #333;
+}
+
+body>h2 {
+    color: #fff;
+    color: salmon;
+    margin: 10px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+header nav {
+    height: 10vh;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header nav button {
+    padding:5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(231, 213, 213);;
+}
+
+header nav button a {
+    color: salmon;
+}
+
+header nav button a:hover {
+    color: blueviolet
+}
+
+label {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+input {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: salmon;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculateBtn {
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px salmon;
+    background-color: salmon;
+    color: #fff
+}
+
+#calculateBtn:hover {
+    box-shadow: 0 0 5px #fff;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+    border: 1px solid grey;
+    width: 60vw;
+    border-radius: 10px;
+    box-shadow: 0 0 5px salmon;
+    background-color: #fff;
+    color: #333;
+    padding: 20px
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+    border: 1px solid grey;
+    width: 60vw;
+    border-radius: 10px;
+    box-shadow: 0 0 5px salmon;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
