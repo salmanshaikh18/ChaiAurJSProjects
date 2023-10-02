@@ -6,7 +6,7 @@
 # Solution Code
 
 ## Project 1 Solution
-```
+```javascript
 const buttons = document.querySelectorAll('.box')
 const body = document.querySelector('body')
 
@@ -35,7 +35,7 @@ buttons.forEach((button) => {
 ```
 
 ## Project 2 Solution
-```
+```javascript
 const form = document.querySelector('form') 
 
 form.addEventListener('submit', (e) => {
@@ -69,7 +69,7 @@ form.addEventListener('submit', (e) => {
 ```
 
 ## Project 3 Solution
-```
+```javascript
 const time = document.getElementById('time')
 
 setInterval(() => {
