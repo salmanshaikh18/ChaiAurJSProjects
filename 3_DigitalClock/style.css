@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #333;
+}
+
+body>h2 {
+    color: #fff;
+    color: salmon;
+
+}
+
+header nav {
+    height: 10vh;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header nav button {
+    padding:5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(231, 213, 213);;
+}
+
+header nav button a {
+    color: salmon;
+}
+
+header nav button a:hover {
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container #time {
+    color: #fff;
+    border: 1px solid grey;
+    margin: 20px;
+    margin-top: 100px;
+    height: 20vh;
+    font-weight: bold;
+    width: 60vw;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px salmon;
+}
