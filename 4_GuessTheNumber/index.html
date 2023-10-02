@@ -15,14 +15,20 @@
       </header>
       <div class="game">
         <h2>Number Guessing Game😎</h2>
-        <h4>Try and guess a random number between 1 and 100.</h4>
-        <h4>You have 10 attempts to guess the right number.</h4>
+        <h3>Try and guess a random number between 1 and 100.</h3>
+        <h3>You have 10 attempts to guess the right number.</h3>
 
         <h2>Guess A Number</h2>
-        <input type="text">
-        <button>Submit Guesses</button>
-        <span>Previous Guess: </span>
-        <span>Guesses Remaining: </span>
+        <form action="">
+            <input id="userInput" type="text"><br><br>
+            <input id="submitBtn" type="submit" value="Submit Guesses">
+        </form>
+
+        <div class="results">
+            <h3>Previous Guess: <span class="guesses"></span></h3>
+            <h3>Guesses Remaining: <span class="guessesRemaining">10</span></h3>
+            <h3 class="lowOrHi"></h3>
+        </div>
       </div>
       
     <script src="./script.js"></script>

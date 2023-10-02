@@ -54,7 +54,7 @@ header nav button a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 22px;
+    gap: 11px;
 }
 
 .game h2 {
@@ -70,7 +70,7 @@ header nav button a:hover {
     font-size: 20px;
 }
 
-.game button {
+.game #submitBtn, #newGame{
     font-size: 18px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -83,7 +83,7 @@ header nav button a:hover {
     box-shadow: 0 0 5px salmon;
 }
 
-.game button:hover {
+.game #submitBtn:hover, #newGame:hover {
     text-decoration: underline;
     box-shadow: 0 0 5px #fff;
 }
@@ -91,3 +91,4 @@ header nav button a:hover {
 .game span {
     font-size: 18px;
 }
+
